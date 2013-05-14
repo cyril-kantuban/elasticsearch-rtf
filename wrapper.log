@@ -1,0 +1,1588 @@
+WARN   | wrapper  | 2013/05/05 23:50:48 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:50:48 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/05 23:50:48 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:50:48 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/05 23:50:48 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/05 23:50:48 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/05 23:50:48 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/05 23:50:48 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/05 23:50:48 | 
+STATUS | wrapper  | 2013/05/05 23:50:49 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/05 23:50:49 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/05 23:50:49 | log4j:ERROR setFile(null,true) call failed.
+INFO   | jvm 1    | 2013/05/05 23:50:49 | java.io.FileNotFoundException: /Users/fly/log/elasticsearch/elasticsearch.log (Permission denied)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:111)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:91)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:175)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.elasticsearch.bootstrap.ElasticSearchF.main(ElasticSearchF.java:15)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at java.lang.reflect.Method.invoke(Method.java:597)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/05 23:50:49 | log4j:ERROR Either File or DatePattern options are not set for appender [file].
+INFO   | jvm 1    | 2013/05/05 23:50:49 | [2013-05-05 23:50:49,837][INFO ][node                     ] [FLY] {0.90.0}[69778]: initializing ...
+INFO   | jvm 1    | 2013/05/05 23:50:49 | [2013-05-05 23:50:49,845][INFO ][plugins                  ] [FLY] loaded [], sites []
+STATUS | wrapper  | 2013/05/05 23:50:50 | INT trapped.  Shutting down.
+STATUS | wrapper  | 2013/05/05 23:50:51 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/05 23:50:55 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:50:55 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/05 23:50:55 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:50:55 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/05 23:50:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/05 23:50:55 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/05 23:50:55 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/05 23:50:55 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/05 23:50:55 | 
+STATUS | wrapper  | 2013/05/05 23:50:55 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/05 23:50:55 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/05 23:50:56 | [2013-05-05 23:50:56,215][INFO ][node                     ] [FLY] {0.90.0}[69842]: initializing ...
+INFO   | jvm 1    | 2013/05/05 23:50:56 | [2013-05-05 23:50:56,223][INFO ][plugins                  ] [FLY] loaded [], sites []
+INFO   | jvm 1    | 2013/05/05 23:50:58 | [2013-05-05 23:50:58,063][INFO ][node                     ] [FLY] {0.90.0}[69842]: initialized
+INFO   | jvm 1    | 2013/05/05 23:50:58 | [2013-05-05 23:50:58,064][INFO ][node                     ] [FLY] {0.90.0}[69842]: starting ...
+INFO   | jvm 1    | 2013/05/05 23:50:58 | [2013-05-05 23:50:58,168][INFO ][transport                ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.1.202:9300]}
+INFO   | jvm 1    | 2013/05/05 23:51:01 | [2013-05-05 23:51:01,196][INFO ][cluster.service          ] [FLY] new_master [FLY][os0H3eAiQzGg5YBu1v9xSQ][inet[/192.168.1.202:9300]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2013/05/05 23:51:01 | [2013-05-05 23:51:01,234][INFO ][discovery                ] [FLY] elasticsearch/os0H3eAiQzGg5YBu1v9xSQ
+INFO   | jvm 1    | 2013/05/05 23:51:01 | [2013-05-05 23:51:01,251][INFO ][http                     ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.1.202:9200]}
+INFO   | jvm 1    | 2013/05/05 23:51:01 | [2013-05-05 23:51:01,251][INFO ][node                     ] [FLY] {0.90.0}[69842]: started
+INFO   | jvm 1    | 2013/05/05 23:51:02 | [2013-05-05 23:51:01,994][INFO ][gateway                  ] [FLY] recovered [6] indices into cluster_state
+INFO   | jvm 1    | 2013/05/05 23:51:02 | [2013-05-05 23:51:01,994][WARN ][cluster.metadata         ] [FLY] [test-pindex] re-syncing mappings with cluster state for types [[test-type]]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | [2013-05-05 23:51:02,056][WARN ][cluster.service          ] [FLY] failed to apply updated cluster state:
+INFO   | jvm 1    | 2013/05/05 23:51:02 | version [5], source [reroute post shard-started ([test-pindex][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]), reason [after recovery from gateway]]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | nodes: 
+INFO   | jvm 1    | 2013/05/05 23:51:02 |    [FLY][os0H3eAiQzGg5YBu1v9xSQ][inet[/192.168.1.202:9300]]{master=true}, local, master
+INFO   | jvm 1    | 2013/05/05 23:51:02 | routing_table:
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [medcl]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [medcl][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [medcl][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [medcl][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [medcl][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [medcl][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [test-pindex]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test-pindex][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test-pindex][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test-pindex][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test-pindex][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test-pindex][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [index]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][1], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][4], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [test]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [test][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [tag_index]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [tag_index][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [tag_index][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [tag_index][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [tag_index][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [tag_index][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -- index [index2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index2][0]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index2][1]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index2][2]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index2][3]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ----shard_id [index2][4]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | routing_nodes:
+INFO   | jvm 1    | 2013/05/05 23:51:02 | -----node_id[os0H3eAiQzGg5YBu1v9xSQ][V]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][1], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][4], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][2], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[INITIALIZING]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][3], node[os0H3eAiQzGg5YBu1v9xSQ], [P], s[STARTED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | ---- unassigned
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[medcl][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test-pindex][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][2], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[test][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][3], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[tag_index][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][0], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][0], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][1], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][1], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][2], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][3], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][4], node[null], [P], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | --------[index2][4], node[null], [R], s[UNASSIGNED]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 
+INFO   | jvm 1    | 2013/05/05 23:51:02 | org.elasticsearch.indices.IndexCreationException: [medcl] failed to create index
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.indices.InternalIndicesService.createIndex(InternalIndicesService.java:382)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.indices.cluster.IndicesClusterStateService.applyNewIndices(IndicesClusterStateService.java:305)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.indices.cluster.IndicesClusterStateService.clusterChanged(IndicesClusterStateService.java:171)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.cluster.service.InternalClusterService$2.run(InternalClusterService.java:321)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:95)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | Caused by: org.elasticsearch.ElasticSearchIllegalArgumentException: failed to find tokenizer type [pinyin] for [my_pinyin]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.index.analysis.AnalysisModule.configure(AnalysisModule.java:308)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.AbstractModule.configure(AbstractModule.java:60)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.spi.Elements$RecordingBinder.install(Elements.java:201)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.spi.Elements.getElements(Elements.java:82)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.InjectorShell$Builder.build(InjectorShell.java:130)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:99)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.InjectorImpl.createChildInjector(InjectorImpl.java:129)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.inject.ModulesBuilder.createChildInjector(ModulesBuilder.java:66)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.indices.InternalIndicesService.createIndex(InternalIndicesService.java:380)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	... 7 more
+INFO   | jvm 1    | 2013/05/05 23:51:02 | Caused by: org.elasticsearch.common.settings.NoClassSettingsException: Failed to load class setting [type] with value [pinyin]
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.settings.ImmutableSettings.loadClass(ImmutableSettings.java:347)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.settings.ImmutableSettings.getAsClass(ImmutableSettings.java:335)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.index.analysis.AnalysisModule.configure(AnalysisModule.java:298)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	... 15 more
+INFO   | jvm 1    | 2013/05/05 23:51:02 | Caused by: java.lang.ClassNotFoundException: org.elasticsearch.index.analysis.pinyin.PinyinTokenizerFactory
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.security.AccessController.doPrivileged(Native Method)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	at org.elasticsearch.common.settings.ImmutableSettings.loadClass(ImmutableSettings.java:345)
+INFO   | jvm 1    | 2013/05/05 23:51:02 | 	... 17 more
+STATUS | wrapper  | 2013/05/05 23:51:55 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2013/05/05 23:51:55 | [2013-05-05 23:51:55,873][INFO ][node                     ] [FLY] {0.90.0}[69842]: stopping ...
+INFO   | jvm 1    | 2013/05/05 23:51:55 | [2013-05-05 23:51:55,920][INFO ][node                     ] [FLY] {0.90.0}[69842]: stopped
+INFO   | jvm 1    | 2013/05/05 23:51:55 | [2013-05-05 23:51:55,920][INFO ][node                     ] [FLY] {0.90.0}[69842]: closing ...
+INFO   | jvm 1    | 2013/05/05 23:51:55 | [2013-05-05 23:51:55,925][INFO ][node                     ] [FLY] {0.90.0}[69842]: closed
+STATUS | wrapper  | 2013/05/05 23:51:56 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/05 23:51:57 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:51:57 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/05 23:51:57 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:51:57 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/05 23:51:57 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/05 23:51:57 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/05 23:51:57 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/05 23:51:57 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/05 23:51:57 | 
+STATUS | wrapper  | 2013/05/05 23:51:57 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/05 23:51:57 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/05 23:51:58 | log4j:ERROR setFile(null,true) call failed.
+INFO   | jvm 1    | 2013/05/05 23:51:58 | java.io.FileNotFoundException: /Users/fly/log/elasticsearch/elasticsearch.log (Permission denied)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:111)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:91)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:175)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.elasticsearch.bootstrap.ElasticSearchF.main(ElasticSearchF.java:15)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at java.lang.reflect.Method.invoke(Method.java:597)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/05 23:51:58 | log4j:ERROR Either File or DatePattern options are not set for appender [file].
+INFO   | jvm 1    | 2013/05/05 23:51:58 | [2013-05-05 23:51:58,099][INFO ][node                     ] [FLY] {0.90.0}[69947]: initializing ...
+INFO   | jvm 1    | 2013/05/05 23:51:58 | [2013-05-05 23:51:58,104][INFO ][plugins                  ] [FLY] loaded [], sites []
+INFO   | jvm 1    | 2013/05/05 23:51:59 | [2013-05-05 23:51:59,710][INFO ][node                     ] [FLY] {0.90.0}[69947]: initialized
+INFO   | jvm 1    | 2013/05/05 23:51:59 | [2013-05-05 23:51:59,710][INFO ][node                     ] [FLY] {0.90.0}[69947]: starting ...
+INFO   | jvm 1    | 2013/05/05 23:51:59 | [2013-05-05 23:51:59,787][INFO ][transport                ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.1.202:9300]}
+INFO   | jvm 1    | 2013/05/05 23:52:02 | [2013-05-05 23:52:02,814][INFO ][cluster.service          ] [FLY] new_master [FLY][_A2-G_joRembcj1sZJPAWA][inet[/192.168.1.202:9300]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2013/05/05 23:52:02 | [2013-05-05 23:52:02,853][INFO ][discovery                ] [FLY] elasticsearch/_A2-G_joRembcj1sZJPAWA
+INFO   | jvm 1    | 2013/05/05 23:52:02 | [2013-05-05 23:52:02,862][INFO ][http                     ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.1.202:9200]}
+INFO   | jvm 1    | 2013/05/05 23:52:02 | [2013-05-05 23:52:02,862][INFO ][node                     ] [FLY] {0.90.0}[69947]: started
+INFO   | jvm 1    | 2013/05/05 23:52:02 | [2013-05-05 23:52:02,901][INFO ][gateway                  ] [FLY] recovered [0] indices into cluster_state
+STATUS | wrapper  | 2013/05/05 23:52:04 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2013/05/05 23:52:04 | [2013-05-05 23:52:04,809][INFO ][node                     ] [FLY] {0.90.0}[69947]: stopping ...
+INFO   | jvm 1    | 2013/05/05 23:52:04 | [2013-05-05 23:52:04,845][INFO ][node                     ] [FLY] {0.90.0}[69947]: stopped
+INFO   | jvm 1    | 2013/05/05 23:52:04 | [2013-05-05 23:52:04,845][INFO ][node                     ] [FLY] {0.90.0}[69947]: closing ...
+INFO   | jvm 1    | 2013/05/05 23:52:04 | [2013-05-05 23:52:04,851][INFO ][node                     ] [FLY] {0.90.0}[69947]: closed
+STATUS | wrapper  | 2013/05/05 23:52:05 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/05 23:52:28 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:52:28 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/05 23:52:28 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/05 23:52:28 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/05 23:52:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/05 23:52:28 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/05 23:52:28 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/05 23:52:28 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/05 23:52:28 | 
+STATUS | wrapper  | 2013/05/05 23:52:28 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/05 23:52:28 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/05 23:52:28 | [2013-05-05 23:52:28,898][INFO ][node                     ] [FLY] {0.90.0}[70036]: initializing ...
+INFO   | jvm 1    | 2013/05/05 23:52:28 | [2013-05-05 23:52:28,902][INFO ][plugins                  ] [FLY] loaded [], sites []
+INFO   | jvm 1    | 2013/05/05 23:52:30 | [2013-05-05 23:52:30,520][INFO ][node                     ] [FLY] {0.90.0}[70036]: initialized
+INFO   | jvm 1    | 2013/05/05 23:52:30 | [2013-05-05 23:52:30,520][INFO ][node                     ] [FLY] {0.90.0}[70036]: starting ...
+INFO   | jvm 1    | 2013/05/05 23:52:30 | [2013-05-05 23:52:30,596][INFO ][transport                ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.1.202:9300]}
+INFO   | jvm 1    | 2013/05/05 23:52:33 | [2013-05-05 23:52:33,616][INFO ][cluster.service          ] [FLY] new_master [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2013/05/05 23:52:33 | [2013-05-05 23:52:33,646][INFO ][discovery                ] [FLY] elasticsearch/k9mYgsg1RziFaFm94nz2zA
+INFO   | jvm 1    | 2013/05/05 23:52:33 | [2013-05-05 23:52:33,656][INFO ][http                     ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.1.202:9200]}
+INFO   | jvm 1    | 2013/05/05 23:52:33 | [2013-05-05 23:52:33,656][INFO ][node                     ] [FLY] {0.90.0}[70036]: started
+INFO   | jvm 1    | 2013/05/05 23:52:33 | [2013-05-05 23:52:33,689][INFO ][gateway                  ] [FLY] recovered [0] indices into cluster_state
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x90753ac6, /192.168.1.202:49273 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x46028b29, /192.168.1.202:49278 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x42a22cb0, /192.168.1.202:49279 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x7fca6c26, /192.168.1.202:49272 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xb171d54d, /192.168.1.202:49274 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xdd600426, /192.168.1.202:49277 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xdc2264a6, /192.168.1.202:49275 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xf420c896, /192.168.1.202:49276 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xd484a9a4, /192.168.1.202:49275 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0xf46c2b09, /192.168.1.202:49279 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x8b9a1eb3, /192.168.1.202:49273 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x6a78bfb2, /192.168.1.202:49280 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x65f63dd9, /192.168.1.202:49272 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x57b37edb, /192.168.1.202:49278 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x4d4c1b6b, /192.168.1.202:49274 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x9d2ef3a7, /192.168.1.202:49276 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x164bc68d, /192.168.1.202:49277 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | [2013-05-06 11:44:49,611][WARN ][transport.netty          ] [FLY] exception caught on transport layer [[id: 0x07bbc489, /192.168.1.202:49280 => /192.168.1.202:9300]], closing connection
+INFO   | jvm 1    | 2013/05/06 11:44:49 | java.io.IOException: Operation timed out
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.FileDispatcher.read0(Native Method)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:107)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:88)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:44:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | [2013-05-06 11:48:49,842][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 11:48:49 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:48:49 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 11:52:50 | [2013-05-06 11:52:50,136][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 11:52:50 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:52:50 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 11:56:50 | [2013-05-06 11:56:50,437][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 11:56:50 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 11:56:50 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:00:50 | [2013-05-06 12:00:50,734][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:00:50 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:00:50 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:04:51 | [2013-05-06 12:04:51,036][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:04:51 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:04:51 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:08:51 | [2013-05-06 12:08:51,335][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:08:51 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:08:51 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:12:51 | [2013-05-06 12:12:51,637][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:12:51 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:12:51 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:16:51 | [2013-05-06 12:16:51,935][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:16:51 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:16:51 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:20:52 | [2013-05-06 12:20:52,237][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:20:52 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:20:52 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:24:52 | [2013-05-06 12:24:52,532][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:24:52 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:24:52 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:28:52 | [2013-05-06 12:28:52,833][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:28:52 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:28:52 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:32:53 | [2013-05-06 12:32:53,134][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:32:53 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:32:53 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:36:53 | [2013-05-06 12:36:53,434][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:36:53 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:36:53 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:40:53 | [2013-05-06 12:40:53,735][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:40:53 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:40:53 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:44:54 | [2013-05-06 12:44:54,033][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:44:54 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:44:54 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:48:54 | [2013-05-06 12:48:54,334][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:48:54 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:48:54 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:52:54 | [2013-05-06 12:52:54,636][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:52:54 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:52:54 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 12:56:54 | [2013-05-06 12:56:54,932][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 12:56:54 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 12:56:54 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:00:55 | [2013-05-06 13:00:55,237][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:00:55 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:00:55 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:04:55 | [2013-05-06 13:04:55,534][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:04:55 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:04:55 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:08:55 | [2013-05-06 13:08:55,836][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:08:55 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:08:55 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:12:56 | [2013-05-06 13:12:56,135][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:12:56 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:12:56 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:16:56 | [2013-05-06 13:16:56,435][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:16:56 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:16:56 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:20:56 | [2013-05-06 13:20:56,733][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:20:56 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:20:56 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:24:57 | [2013-05-06 13:24:57,036][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:24:57 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:24:57 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:28:57 | [2013-05-06 13:28:57,334][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:28:57 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:28:57 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:32:57 | [2013-05-06 13:32:57,634][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:32:57 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:32:57 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:36:57 | [2013-05-06 13:36:57,934][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:36:57 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:36:57 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:40:58 | [2013-05-06 13:40:58,234][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:40:58 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:40:58 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:44:58 | [2013-05-06 13:44:58,534][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:44:58 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:44:58 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:48:58 | [2013-05-06 13:48:58,834][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:48:58 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:48:58 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:52:59 | [2013-05-06 13:52:59,133][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:52:59 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:52:59 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 13:56:59 | [2013-05-06 13:56:59,432][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 13:56:59 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 13:56:59 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:00:59 | [2013-05-06 14:00:59,734][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:00:59 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:00:59 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:05:00 | [2013-05-06 14:05:00,032][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:05:00 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:05:00 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:09:00 | [2013-05-06 14:09:00,334][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:09:00 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:09:00 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:13:00 | [2013-05-06 14:13:00,636][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:13:00 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:13:00 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:17:01 | [2013-05-06 14:17:00,936][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:17:01 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:17:01 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:21:01 | [2013-05-06 14:21:01,233][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:21:01 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:21:01 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:25:01 | [2013-05-06 14:25:01,533][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:25:01 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:25:01 | 	... 3 more
+INFO   | jvm 1    | 2013/05/06 14:29:01 | [2013-05-06 14:29:01,832][WARN ][cluster.service          ] [FLY] failed to reconnect to node [FLY][k9mYgsg1RziFaFm94nz2zA][inet[/192.168.1.202:9300]]{master=true}
+INFO   | jvm 1    | 2013/05/06 14:29:01 | org.elasticsearch.transport.ConnectTransportException: [FLY][inet[/192.168.1.202:9300]] connect_timeout[30s]
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:671)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:610)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:580)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:127)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:401)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /192.168.1.202:9300
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:137)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+INFO   | jvm 1    | 2013/05/06 14:29:01 | 	... 3 more
+STATUS | wrapper  | 2013/05/06 14:31:27 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2013/05/06 14:31:28 | [2013-05-06 14:31:28,673][INFO ][node                     ] [FLY] {0.90.0}[70036]: stopping ...
+INFO   | jvm 1    | 2013/05/06 14:31:42 | [2013-05-06 14:31:42,054][INFO ][node                     ] [FLY] {0.90.0}[70036]: stopped
+INFO   | jvm 1    | 2013/05/06 14:31:42 | [2013-05-06 14:31:42,055][INFO ][node                     ] [FLY] {0.90.0}[70036]: closing ...
+INFO   | jvm 1    | 2013/05/06 14:31:42 | [2013-05-06 14:31:42,071][INFO ][node                     ] [FLY] {0.90.0}[70036]: closed
+STATUS | wrapper  | 2013/05/06 14:31:42 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/14 10:31:28 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:31:28 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/14 10:31:28 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:31:28 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/14 10:31:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/14 10:31:28 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/14 10:31:28 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/14 10:31:28 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/14 10:31:28 | 
+STATUS | wrapper  | 2013/05/14 10:31:28 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/14 10:31:28 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/14 10:31:29 | log4j:ERROR setFile(null,true) call failed.
+INFO   | jvm 1    | 2013/05/14 10:31:29 | java.io.FileNotFoundException: /Users/fly/log/elasticsearch/elasticsearch2.log (Permission denied)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:111)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:91)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:175)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.ElasticSearchF.main(ElasticSearchF.java:15)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.lang.reflect.Method.invoke(Method.java:597)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | log4j:ERROR Either File or DatePattern options are not set for appender [file].
+INFO   | jvm 1    | 2013/05/14 10:31:29 | log4j:ERROR setFile(null,true) call failed.
+INFO   | jvm 1    | 2013/05/14 10:31:29 | java.io.FileNotFoundException: /Users/fly/log/elasticsearch/elasticsearch2_index_search_slowlog.log (Permission denied)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.openAppend(Native Method)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:192)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.io.FileOutputStream.<init>(FileOutputStream.java:116)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:111)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:91)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:175)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.elasticsearch.bootstrap.ElasticSearchF.main(ElasticSearchF.java:15)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.lang.reflect.Method.invoke(Method.java:597)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	at java.lang.Thread.run(Thread.java:680)
+INFO   | jvm 1    | 2013/05/14 10:31:29 | log4j:ERROR Either File or DatePattern options are not set for appender [index_search_slow_log_file].
+INFO   | jvm 1    | 2013/05/14 10:31:29 | [2013-05-14 10:31:29,197][INFO ][node                     ] [FLY] {0.90.0}[26553]: initializing ...
+INFO   | jvm 1    | 2013/05/14 10:31:29 | [2013-05-14 10:31:29,229][INFO ][plugins                  ] [FLY] loaded [analysis-mmseg, transport-thrift, analysis-pinyin, analysis-combo, analysis-ik, analysis-smartcn], sites [bigdesk, head, paramedic]
+INFO   | jvm 1    | 2013/05/14 10:31:29 | [2013-05-14 10:31:29,279][ERROR][bootstrap                ] {0.90.0}: Initialization Failed ...
+INFO   | jvm 1    | 2013/05/14 10:31:29 | - ElasticSearchIllegalStateException[Failed to obtain node lock, is the following location writable?: [/Users/fly/data/elasticsearch/elasticsearch2]]
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 	IOException[failed to obtain lock on /Users/fly/data/elasticsearch/elasticsearch2/nodes/49]
+INFO   | jvm 1    | 2013/05/14 10:31:29 | 		IOException[Cannot create directory: /Users/fly/data/elasticsearch/elasticsearch2/nodes/49]
+STATUS | wrapper  | 2013/05/14 10:31:31 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/14 10:31:43 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:31:43 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/14 10:31:43 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:31:43 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/14 10:31:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/14 10:31:43 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/14 10:31:43 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/14 10:31:43 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/14 10:31:43 | 
+STATUS | wrapper  | 2013/05/14 10:31:43 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/14 10:31:43 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/14 10:31:43 | [2013-05-14 10:31:43,958][INFO ][node                     ] [FLY] {0.90.0}[26632]: initializing ...
+INFO   | jvm 1    | 2013/05/14 10:31:43 | [2013-05-14 10:31:43,984][INFO ][plugins                  ] [FLY] loaded [analysis-mmseg, transport-thrift, analysis-pinyin, analysis-combo, analysis-ik, analysis-smartcn], sites [bigdesk, head, paramedic]
+INFO   | jvm 1    | 2013/05/14 10:31:46 | [2013-05-14 10:31:46,192][INFO ][node                     ] [FLY] {0.90.0}[26632]: initialized
+INFO   | jvm 1    | 2013/05/14 10:31:46 | [2013-05-14 10:31:46,192][INFO ][node                     ] [FLY] {0.90.0}[26632]: starting ...
+INFO   | jvm 1    | 2013/05/14 10:31:46 | [2013-05-14 10:31:46,217][INFO ][thrift                   ] [FLY] bound on port [9600]
+INFO   | jvm 1    | 2013/05/14 10:31:46 | [2013-05-14 10:31:46,317][INFO ][transport                ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.0.174:9300]}
+INFO   | jvm 1    | 2013/05/14 10:31:49 | [2013-05-14 10:31:49,345][INFO ][cluster.service          ] [FLY] new_master [FLY][7kLaHmiwQlKfAJdpsYwwgw][inet[/192.168.0.174:9300]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2013/05/14 10:31:49 | [2013-05-14 10:31:49,396][INFO ][discovery                ] [FLY] elasticsearch2/7kLaHmiwQlKfAJdpsYwwgw
+INFO   | jvm 1    | 2013/05/14 10:31:49 | [2013-05-14 10:31:49,408][INFO ][http                     ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.0.174:9200]}
+INFO   | jvm 1    | 2013/05/14 10:31:49 | [2013-05-14 10:31:49,408][INFO ][node                     ] [FLY] {0.90.0}[26632]: started
+INFO   | jvm 1    | 2013/05/14 10:31:49 | [2013-05-14 10:31:49,687][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 2013-5-14 10:31:49 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:31:49 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 2013-5-14 10:31:49 com.chenlb.mmseg4j.Dictionary loadDic
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 2013-5-14 10:31:49 com.chenlb.mmseg4j.Dictionary loadWord
+INFO   | jvm 1    | 2013/05/14 10:31:49 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary loadWord
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary loadDic
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary loadUnit
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | [2013-05-14 10:31:50,154][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | [2013-05-14 10:31:50,157][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | [2013-05-14 10:31:50,160][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 2013-5-14 10:31:50 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | [2013-05-14 10:31:50,254][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | %S
+INFO   | jvm 1    | 2013/05/14 10:31:50 | 
+INFO   | jvm 1    | 2013/05/14 10:31:50 | [2013-05-14 10:31:50,925][INFO ][gateway                  ] [FLY] recovered [1] indices into cluster_state
+STATUS | wrapper  | 2013/05/14 10:46:05 | INT trapped.  Shutting down.
+INFO   | jvm 1    | 2013/05/14 10:46:06 | [2013-05-14 10:46:06,705][INFO ][node                     ] [FLY] {0.90.0}[26632]: stopping ...
+INFO   | jvm 1    | 2013/05/14 10:46:06 | [2013-05-14 10:46:06,730][INFO ][node                     ] [FLY] {0.90.0}[26632]: stopped
+INFO   | jvm 1    | 2013/05/14 10:46:06 | [2013-05-14 10:46:06,730][INFO ][node                     ] [FLY] {0.90.0}[26632]: closing ...
+INFO   | jvm 1    | 2013/05/14 10:46:06 | [2013-05-14 10:46:06,737][INFO ][node                     ] [FLY] {0.90.0}[26632]: closed
+STATUS | wrapper  | 2013/05/14 10:46:06 | <-- Wrapper Stopped
+WARN   | wrapper  | 2013/05/14 10:50:54 | Unable to write to the configured log directory: /Users/fly/develop/elasticsearch-0.90.0-rtf/logs (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:50:54 |   The directory does not exist.
+WARN   | wrapper  | 2013/05/14 10:50:54 | Unable to write to the configured log file: /Users/fly/develop/elasticsearch-0.90.0-rtf/logs/service.log (No such file or directory)
+WARN   | wrapper  | 2013/05/14 10:50:54 |   Falling back to the default file in the current working directory: wrapper.log
+STATUS | wrapper  | 2013/05/14 10:50:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2013/05/14 10:50:54 | Java Service Wrapper Community Edition 64-bit 3.5.14
+STATUS | wrapper  | 2013/05/14 10:50:54 |   Copyright (C) 1999-2011 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2013/05/14 10:50:54 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2013/05/14 10:50:54 | 
+STATUS | wrapper  | 2013/05/14 10:50:55 | Launching a JVM...
+INFO   | jvm 1    | 2013/05/14 10:50:55 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2013/05/14 10:50:55 | [2013-05-14 10:50:55,728][INFO ][node                     ] [FLY] {0.90.0}[26765]: initializing ...
+INFO   | jvm 1    | 2013/05/14 10:50:55 | [2013-05-14 10:50:55,755][INFO ][plugins                  ] [FLY] loaded [analysis-mmseg, transport-thrift, analysis-pinyin, analysis-combo, analysis-ik, analysis-smartcn], sites [bigdesk, head, paramedic]
+INFO   | jvm 1    | 2013/05/14 10:50:57 | [2013-05-14 10:50:57,520][INFO ][node                     ] [FLY] {0.90.0}[26765]: initialized
+INFO   | jvm 1    | 2013/05/14 10:50:57 | [2013-05-14 10:50:57,520][INFO ][node                     ] [FLY] {0.90.0}[26765]: starting ...
+INFO   | jvm 1    | 2013/05/14 10:50:57 | [2013-05-14 10:50:57,541][INFO ][thrift                   ] [FLY] bound on port [9600]
+INFO   | jvm 1    | 2013/05/14 10:50:57 | [2013-05-14 10:50:57,619][INFO ][transport                ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.0.174:9300]}
+INFO   | jvm 1    | 2013/05/14 10:51:00 | [2013-05-14 10:51:00,639][INFO ][cluster.service          ] [FLY] new_master [FLY][7HiD9PS3TfyNzM5Ih1o6Eg][inet[/192.168.0.174:9300]]{master=true}, reason: zen-disco-join (elected_as_master)
+INFO   | jvm 1    | 2013/05/14 10:51:00 | [2013-05-14 10:51:00,676][INFO ][discovery                ] [FLY] elasticsearch2/7HiD9PS3TfyNzM5Ih1o6Eg
+INFO   | jvm 1    | 2013/05/14 10:51:00 | [2013-05-14 10:51:00,686][INFO ][http                     ] [FLY] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.0.174:9200]}
+INFO   | jvm 1    | 2013/05/14 10:51:00 | [2013-05-14 10:51:00,686][INFO ][node                     ] [FLY] {0.90.0}[26765]: started
+INFO   | jvm 1    | 2013/05/14 10:51:00 | [2013-05-14 10:51:00,944][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0-rtf/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:51:00 | 2013-5-14 10:51:00 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:51:00 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:00 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary loadDic
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary loadWord
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary loadWord
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary loadDic
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary loadUnit
+INFO   | jvm 1    | 2013/05/14 10:51:01 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | [2013-05-14 10:51:01,360][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0-rtf/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:51:01 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | [2013-05-14 10:51:01,362][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0-rtf/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:51:01 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | [2013-05-14 10:51:01,366][INFO ][index.analysis           ] [FLY] [test] /Users/fly/develop/elasticsearch-0.90.0-rtf/config/mmseg
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:51:01 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 2013-5-14 10:51:01 com.chenlb.mmseg4j.Dictionary getInstance
+INFO   | jvm 1    | 2013/05/14 10:51:01 | %S
+INFO   | jvm 1    | 2013/05/14 10:51:01 | 
+INFO   | jvm 1    | 2013/05/14 10:51:01 | [2013-05-14 10:51:01,417][INFO ][ik-analyzer              ] [Dict Loading] ik/IKAnalyzer.cfg.xml
