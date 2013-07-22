@@ -363,9 +363,43 @@
 #monitor.jvm.gc.ConcurrentMarkSweep.info: 5s
 #monitor.jvm.gc.ConcurrentMarkSweep.debug: 2s
 
-index.cache.field.max_size: 50000
-index.cache.field.expire: 10m
-index.cache.field.type: soft
+threadpool:
+    index:
+        type: blocking
+        min: 1
+        size: 40
+        wait_time: 60s
+    search:
+        type: blocking
+        min: 1
+        size: 40
+        wait_time: 60s
+    bulk:
+        type: blocking
+        min: 1
+        size: 40
+        wait_time: 1000s
+    refresh:
+        type: blocking
+        min: 1
+        size: 40
+        wait_time: 1000s
+
+#index.cache.field.max_size: 50000
+#index.cache.field.expire: 10m
+#index.cache.field.type: soft
+
+index.cache.filter.max_size: 5000
+index.cache.filter.expire: 5m
+#index.cache.filter.type: soft
+
+#indices.fielddata.cache.size: 5000
+#indices.fielddata.cache.expire: 10m
+ktb.nativescript.lookup_ex:
+    size: 5000
+    expire_after_access: 1m
+    expire_after_write: 2m
+
 
 set.default.ES_MIN_MEM: 2048
 set.default.ES_MAX_MEM: 2048

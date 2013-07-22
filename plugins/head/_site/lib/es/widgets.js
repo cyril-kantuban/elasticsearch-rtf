@@ -479,6 +479,7 @@
 			this.cronEl = this.el.find("SELECT[name=cron]");
 			this.outEl = this.el.find("DIV.anyRequest-out");
 			this.errEl = this.el.find("DIV.anyRequest-jsonErr");
+			this.typeEl.val("GET");
 			this.appendTo(parent);
 			this.setHistoryItem(this.history[this.history.length - 1]);
 		},
@@ -1545,6 +1546,7 @@
 			$.ajax(acx.extend({
 				url: this.config.base_uri + params.path,
 				type: "POST",
+				contentType: "application/json",
 				dataType: "json",
 				error: function(xhr, type, message) {
 					if(xhr.responseText != null) {
